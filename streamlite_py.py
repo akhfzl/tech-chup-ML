@@ -6,7 +6,7 @@ st.title("Wait Time Prediction App")
 st.write("Enter the patient’s information to predict the expected wait time.")
 
 arrival_time = st.text_input("Arrival Time (format: %d-%m-%Y %H:%M)", "30-03-2023 12:00")
-start_time = st.text_input("Start Time (format: YYYY-MM-DD HH:MM)", "30-03-2023 12:15")
+start_time = st.text_input("Start Time (format: %d-%m-%Y %H:%M)", "30-03-2023 12:15")
 queue_length = st.number_input("Queue Length", min_value=0, max_value=100, value=10)
 
 if st.button("Predict Wait Time"):
