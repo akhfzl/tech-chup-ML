@@ -1,0 +1,20 @@
+[
+    {
+        "arrival_dayofweek": 1,
+        "time_of_day": "morning",
+        "wait_time": 10,
+        "queue_length": 4
+    },
+    {
+        "arrival_dayofweek": 1,
+        "time_of_day": "morning",
+        "wait_time": 15,
+        "queue_length": 7
+    },
+    {
+        "arrival_dayofweek": 3,
+        "time_of_day": "afternoon",
+        "wait_time": -0.25,
+        "queue_length": 50
+    }
+]
